@@ -141,7 +141,7 @@ footer {
 
     .gallery-scroll img {
         width: 95%;
-        height: auto;
+        height: 250px;
         margin: 10px auto;
     }
 }

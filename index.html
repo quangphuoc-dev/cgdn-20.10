@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Happy Woman's Day</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="icon" href="images/fabicon_2.png" type="image/x-icon" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        />
+        <link href="manifest.json" rel="manifest" />
+        <meta name="theme-color" content="#ff6b6b" />
+    </head>
+
+    <body>
+        <section id="login">
+            <div class="login-container">
+                <h2>Enter Password</h2>
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Enter the secret password..."
+                />
+                <button onclick="checkPassword()">Login</button>
+                <p id="error-message"></p>
+            </div>
+        </section>
+
+        <div id="main-content" style="display: none">
+            <!-- Hero Section -->
+            <section id="hero">
+                <div class="container">
+                    <h1 class="fade-in">Happy Woman's Day</h1>
+                    <p class="fade-in"
+                        >"Vẻ đẹp của phụ nữ không chỉ nằm ở bề ngoài, mà còn ở
+                        tâm hồn và những giá trị mà họ mang lại cho cuộc sống."
+                        💕</p
+                    >
+                </div>
+            </section>
+
+            <section id="love-letter">
+                <h2 class="slide-up">A Letter to You</h2>
+                <div class="letter-container fade-in">
+                    <div class="scroll-effect">
+                        <p>Thân gửi các chị em thân mến,</p>
+
+                        <p
+                            >Nhân dịp Ngày Phụ nữ Việt Nam 20-10, chúng tôi muốn
+                            dành chút thời gian để gửi đến tất cả các chị em
+                            những lời chúc tốt đẹp nhất. Đây là dịp để chúng ta
+                            tôn vinh vẻ đẹp, sức mạnh và những đóng góp của phái
+                            đẹp trong xã hội nói chung và trong công ty của
+                            chúng ta nói riêng.</p
+                        >
+
+                        <p
+                            >Mỗi ngày, chị em không chỉ là những người đồng
+                            nghiệp mà còn là những người bạn, những nguồn cảm
+                            hứng cho tất cả chúng tôi. Sự nhiệt huyết, lòng kiên
+                            trì và sự sáng tạo của chị em đã góp phần làm cho
+                            môi trường làm việc của chúng ta trở nên tuyệt vời
+                            hơn.</p
+                        >
+
+                        <p
+                            >Hãy nhớ rằng, mỗi người phụ nữ đều mang trong mình
+                            sức mạnh và khả năng vô hạn. Hãy tự hào về bản thân,
+                            về những gì bạn đã đạt được và những gì bạn đang
+                            theo đuổi. Ngày hôm nay, hãy cùng nhau ăn mừng những
+                            điều tốt đẹp và dành cho nhau những lời chúc tốt đẹp
+                            nhất.</p
+                        >
+
+                        <p
+                            >Chúc chị em một ngày 20-10 thật vui vẻ, hạnh phúc
+                            và tràn đầy yêu thương. Hãy luôn tỏa sáng và là
+                            chính mình!</p
+                        >
+
+                        <p>Thân ái,</p>
+                        <p>Hội Anh Em ❤️</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Personal Message Section -->
+            <section id="personal-message">
+                <h2 class="slide-up" style="margin-bottom: 20px"
+                    >Message from The Brothers</h2
+                >
+                <p class="slide-up" style="margin-bottom: 30px">
+                    I started crafting this message to remind you how special
+                    you are and how much you are loved. 💖</p
+                >
+                <div class="message-container fade-in">
+                    <p>
+                        <strong>Võ Trần Tuấn Kiệt</strong><br />
+                        Nhân ngày 20/10, em chúc các chị luôn xinh đẹp, hạnh
+                        phúc và thành công trong công việc cũng như cuộc sống.
+                        Cảm ơn các chị đã luôn đồng hành và mang đến những điều
+                        tốt đẹp nhất cho tập thể CA chúng ta. Chúc mọi người một
+                        ngày thật vui vẻ và ngập tràn niềm vui bên gia đình và
+                        người thân nhé !♥ 💖
+                    </p>
+                </div>
+                <div class="message-container fade-in">
+                    <p>
+                        <strong>Ngô Tá Trường Lộc</strong> <br />
+                        Mừng Ngày Phụ nữ Việt Nam! Chúc chị em phụ nữ luôn khỏe
+                        mạnh, nhiệt huyết, xinh đẹp. Mỗi ngày là một cơ hội mới,
+                        những người luôn cố gắng và hoàn thiện công việc, cảm ơn
+                        sự đóng góp của mọi người cho tập thể CleverGroup. Chúc
+                        mọi người một ngày 20/10 vui vẻ, hạnh phúc và trọn vẹn
+                        bên gia đình, bạn bè, những người thân yêu! 🎈🎁
+                    </p>
+                </div>
+                <div class="message-container fade-in">
+                    <p>
+                        <strong>Trần Phạm Quang Phước</strong> <br />
+
+                        Chúc mừng Ngày Phụ nữ Việt Nam 20-10! Cảm ơn các chị em
+                        đã mang đến sức sống và sự nhiệt huyết cho công việc mỗi
+                        ngày. Chúc mọi người luôn xinh đẹp, tự tin và thành công
+                        trên con đường mà mình đã chọn. Hãy luôn tỏa sáng như
+                        những ngôi sao trong cuộc sống và công việc của mình!
+                        🎈🎁
+                    </p>
+                </div>
+                <div class="message-container fade-in">
+                    <p>
+                        <strong>Nguyễn Văn Trung Hậu</strong> <br />
+                        Trăng kia ai toả mà tròn <br />
+                        Yêu kiều, xinh đẹp chính là chị em <br />
+                        Nhân ngày 20/10 em chúc các chị em CleverGroup mãi trẻ
+                        trung xinh đẹp, rạng ngời toả sáng như ánh trăng thu.
+                        Chúc mọi người một 20/10 cùng CleverGroup vui vẻ, hạnh
+                        phúc vẹn toàn. 🎈🎁
+                    </p>
+                </div>
+                <div class="message-container fade-in">
+                    <p>
+                        <strong>Lê Nguyễn Quang Vinh</strong> <br />
+                        Nhân ngày Phụ nữ Việt Nam 20/10, em xin gửi đến những
+                        người phụ nữ của CleverGroup lời chúc mừng tràn đầy yêu
+                        thương và hạnh phúc. Chúc các chị, các em luôn khỏe
+                        mạnh, xinh đẹp, tự tin và thành công trong mọi điều mà
+                        mình mong muốn. 🎈🎁
+                    </p>
+                </div>
+                <div class="message-container fade-in">
+                    <p>
+                        <strong>Viết Huy</strong> <br />
+                        Nhân ngày 20/10, em xin gửi lời chúc đến các chị em
+                        CleverGroup luôn xinh đẹp từ sáng đến chiều, nụ cười
+                        rạng rỡ như mai, luôn có người đón đưa mỗi ngày và mãi
+                        hạnh phúc tràn đầy về sau ~ 🎈🎁
+                    </p>
+                </div>
+            </section>
+
+            <section id="gallery">
+                <h2 class="slide-up">Our Moments Together</h2>
+                <div class="gallery-container">
+                    <div class="gallery-scroll" id="gallery-scroll">
+                        <img
+                            src="images/Châu.jpg"
+                            alt="Memory 1"
+                            loading="eager"
+                        />
+                        <img
+                            src="images/Chị Dương.jpg"
+                            alt="Memory 2"
+                            loading="eager"
+                        />
+                        <img
+                            src="images/Chị Ngọc.jpg"
+                            alt="Memory 3"
+                            loading="eager"
+                        />
+                        <img
+                            src="images/Chị Tình.jpg"
+                            alt="Memory 4"
+                            loading="eager"
+                        />
+                        <img
+                            src="images/Chị Trang.jpg"
+                            alt="Memory 5"
+                            loading="eager"
+                        />
+                        <img
+                            src="images/Chị Trâm.jpg"
+                            alt="Memory 6"
+                            loading="eager"
+                        />
+                        <img
+                            src="images/Hằng.jpg"
+                            alt="Memory 7"
+                            loading="eager"
+                        />
+                        <img
+                            src="images/Hoang Anh.jpeg"
+                            alt="Memory 8"
+                            loading="eager"
+                        />
+                        <img
+                            src="images/Hoài EDS.png"
+                            alt="Memory 9"
+                            loading="eager"
+                        />
+                        <img
+                            src="images/Huyền TTS.jpg"
+                            alt="Memory 10"
+                            loading="eager"
+                        />
+                        <img
+                            src="images/Huyền.jpg"
+                            alt="Memory 11"
+                            loading="eager"
+                        />
+                        <img
+                            src="images/Ngân.jpg"
+                            alt="Memory 12"
+                            loading="eager"
+                        />
+                        <img
+                            src="images/Nhân.jpg"
+                            alt="Memory 12"
+                            loading="eager"
+                        /><img
+                            src="images/Nhi.png"
+                            alt="Memory 12"
+                            loading="eager"
+                        />
+                        <img
+                            src="images/Phúc TTS.jpg"
+                            alt="Memory 12"
+                            loading="eager"
+                        />
+                        <img
+                            src="images/Thảo TTS.png"
+                            alt="Memory 12"
+                            loading="eager"
+                        />
+                        <img
+                            src="images/Ý.jpg"
+                            alt="Memory 12"
+                            loading="eager"
+                        />
+                    </div>
+                </div>
+            </section>
+
+            <section id="special-message" class="special-message fade-in">
+                <h2 class="slide-up" style="margin-bottom: 25px"
+                    >Special Message</h2
+                >
+                <p
+                    >Nhân dịp 20-10 này, xin chúc các chị em luôn xinh đẹp, hạnh
+                    phúc và thành công trong mọi lĩnh vực của cuộc sống. Các bạn
+                    không chỉ là những người đồng nghiệp giỏi giang mà còn là
+                    nguồn cảm hứng bất tận. Hãy luôn tự tin và tỏa sáng, vì mỗi
+                    ngày chúng ta đều xứng đáng với những điều tốt đẹp nhất!"
+                    💖</p
+                >
+            </section>
+
+            <button id="scroll-to-top" class="action-button">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+
+            <button id="trigger-confetti" class="action-button">
+                <i class="fas fa-magic"></i>
+            </button>
+
+            <footer>
+                <p class="fade-in"
+                    >"Với tất cả tình cảm chân thành của hội anh em, xin chúc
+                    các chị em một ngày 20-10 thật ý nghĩa, tràn ngập niềm vui
+                    và hạnh phúc." 💖</p
+                >
+            </footer>
+        </div>
+
+        <script src="scripts.js"></script>
+    </body>
+</html>

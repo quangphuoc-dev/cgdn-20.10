@@ -1,15 +1,40 @@
+// function checkPassword() {
+//     const password = document.getElementById("password").value;
+//     const errorMessage = document.getElementById("error-message");
+
+//     const correctPassword = "cgdanang";
+
+//     if (password === correctPassword) {
+//         document.getElementById("login").style.display = "none";
+//         document.getElementById("main-content").style.display = "block";
+//         initiateAnimations();
+//     } else {
+//         errorMessage.textContent = "Incorrect password. Please try again.";
+//     }
+// }
+
 function checkPassword() {
     const password = document.getElementById("password").value;
     const errorMessage = document.getElementById("error-message");
+    const correctPassword = "cgdanang"; // Mật khẩu đúng
 
-    const correctPassword = "cgdanang";
-
+    // Kiểm tra mật khẩu
     if (password === correctPassword) {
+        // Ẩn phần đăng nhập và hiển thị nội dung chính
         document.getElementById("login").style.display = "none";
         document.getElementById("main-content").style.display = "block";
+
+        // Phát nhạc nền
+        const music = document.getElementById("background-music");
+        music.style.display = "block"; // Hiển thị thẻ audio để có thể phát
+        music.play(); // Phát nhạc
+
+        // Khởi động hoạt ảnh
         initiateAnimations();
     } else {
-        errorMessage.textContent = "Incorrect password. Please try again.";
+        // Hiển thị thông báo lỗi
+        errorMessage.textContent =
+            "Mật khẩu không chính xác. Vui lòng thử lại.";
     }
 }
 
